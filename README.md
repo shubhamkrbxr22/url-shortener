@@ -2,9 +2,13 @@
 ## Quick Start
 
 git clone https://github.com/shubhamkrbxr22/url-shortener.git
+
 cd url-shortener
+
 g++ server.cpp -o server -std=c++17 -lpthread
+
 ./server
+
 
 Open in browser:
 http://localhost:8080
