@@ -1,30 +1,36 @@
 ## How to Run
+## Quick Start
 
+git clone https://github.com/shubhamkrbxr22/url-shortener.git
+cd url-shortener
 g++ server.cpp -o server -std=c++17 -lpthread
 ./server
 
 Open in browser:
 http://localhost:8080
-Distributed URL Shortener
 
-High-performance URL shortening service built using C++, Crow and Nginx.
+## High-performance URL shortening service built using C++, Crow and Nginx.
 
-Features
+## Features
 
 - Fast URL shortening using Base62 encoding
 - REST API built with Crow (C++)
 - Nginx reverse proxy support
 - Threaded high-performance server
 
-Tech Stack
+## Tech Stack
 
 - C++
 - Crow
 - Nginx
 - Base62 Encoding
 
-How to Run
+## How to Run
 
-```bash
-g++ server.cpp -o server -lpthread
-./server 8081
+git clone https://github.com/shubhamkrbxr22/url-shortener.git
+cd url-shortener
+g++ server.cpp -o server -std=c++17 -lpthread
+./server
+
+Open in browser:
+http://localhost:8080
