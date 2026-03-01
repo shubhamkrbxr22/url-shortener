@@ -1,3 +1,10 @@
+## How to Run
+
+g++ server.cpp -o server -std=c++17 -lpthread
+./server
+
+Open in browser:
+http://localhost:8080
 Distributed URL Shortener
 
 High-performance URL shortening service built using C++, Crow and Nginx.
