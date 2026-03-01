@@ -1,12 +1,9 @@
-## How to Run
-## Quick Start
+## 🚀 Quick Start
 
+```bash
 git clone https://github.com/shubhamkrbxr22/url-shortener.git
-
 cd url-shortener
-
 g++ server.cpp -o server -std=c++17 -lpthread
-
 ./server
 
 
