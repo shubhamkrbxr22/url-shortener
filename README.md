@@ -1,37 +1,35 @@
-## 🚀 Quick Start
+# 🚀 URL Shortener (C++ + Crow)
 
-```bash
-git clone https://github.com/shubhamkrbxr22/url-shortener.git
-cd url-shortener
-g++ server.cpp -o server -std=c++17 -lpthread
-./server
+A high-performance URL shortener built in **C++** using the **Crow web framework**.
 
+✅ Generates short URLs  
+✅ Fast HTTP server  
+✅ Optional MySQL + Redis support  
+✅ Works even without DB (demo mode)  
+✅ Interview-ready system design project
 
-Open in browser:
-http://localhost:8080
+---
 
-## High-performance URL shortening service built using C++, Crow and Nginx.
+## 🏗️ Tech Stack
 
-## Features
+- C++17
+- Crow (HTTP framework)
+- Asio
+- Base62 encoding
+- (Optional) MySQL
+- (Optional) Redis
 
-- Fast URL shortening using Base62 encoding
-- REST API built with Crow (C++)
-- Nginx reverse proxy support
-- Threaded high-performance server
+---
 
-## Tech Stack
+## ⚡ Features
 
-- C++
-- Crow
-- Nginx
-- Base62 Encoding
+- Short URL generation
+- HTTP redirection (302)
+- Redis caching (optional)
+- MySQL persistence (optional)
+- Multithreaded server
+- Lightweight and fast
 
-## How to Run
+---
 
-git clone https://github.com/shubhamkrbxr22/url-shortener.git
-cd url-shortener
-g++ server.cpp -o server -std=c++17 -lpthread
-./server
-
-Open in browser:
-http://localhost:8080
+## 📁 Project Structure
