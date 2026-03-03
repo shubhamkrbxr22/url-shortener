@@ -1,4 +1,4 @@
-# 🚀 URL Shortener (C++ + Crow)
+# 🚀 URL Shortener (C++ + Crow + redis)
 
 A high-performance URL shortener built in **C++** using the **Crow web framework**.
 
