@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>URL Shortener</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+<h1>Short.ly</h1>
+</nav>
+
+<div class="container">
+
+<h2>Shorten Your Long URL</h2>
+
+<div class="input-box">
+<input type="text" id="urlInput" placeholder="Paste your long URL here">
+<button onclick="shortenURL()">Shorten</button>
+</div>
+
+<div id="resultBox" class="result hidden">
+<p id="shortUrl"></p>
+<button onclick="copyURL()">Copy</button>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
